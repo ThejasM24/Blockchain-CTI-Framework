@@ -1,0 +1,32 @@
+{
+  "brute-force": {
+    "techniqueId": "T1110",
+    "techniqueName": "Brute Force",
+    "tactic": "Credential Access",
+    "keywords": ["repeated login", "password guessing", "login attempts", "failed login"]
+  },
+  "ddos": {
+    "techniqueId": "T1498",
+    "techniqueName": "Network Denial of Service",
+    "tactic": "Impact",
+    "keywords": ["denial of service", "traffic flood", "network flood", "service unavailable", "resource exhaustion"]
+  },
+  "phishing": {
+    "techniqueId": "T1566",
+    "techniqueName": "Phishing",
+    "tactic": "Initial Access",
+    "keywords": ["phishing email", "malicious attachment", "suspicious link", "credential harvesting", "spoofed email"]
+  },
+  "malware": {
+    "techniqueId": "T1204",
+    "techniqueName": "User Execution",
+    "tactic": "Execution",
+    "keywords": ["malicious file", "payload executed", "user execution", "suspicious executable", "malware execution"]
+  },
+  "unauthorized-access": {
+    "techniqueId": "T1078",
+    "techniqueName": "Valid Accounts",
+    "tactic": "Initial Access",
+    "keywords": ["unauthorized access", "stolen credentials", "account compromise", "valid account", "suspicious login"]
+  }
+}
